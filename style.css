@@ -1,0 +1,120 @@
+body{
+    background-color: #202020;
+    color: #f0efef;
+    font-family: Arial;
+}
+
+header{
+    height: 80px;
+    padding-left: 20px;
+}
+
+header h1{
+    float: left;
+    text-transform: lowercase;
+    margin: 10px 30px 0 0;
+}
+
+header p{
+    padding-top: 25px;
+    font-style: italic;
+    font-family: 'Times New Roman';
+    font-size: 12pt;
+}
+
+.elhelyezes{
+    width: 950px;
+    margin: 0 auto;
+}
+
+nav{
+    background-color: #087cf4;
+    height: 35px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    display: inline;
+    float: left;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    font-size: 9pt;
+    padding: 10px 20px 10px;
+}
+
+nav a.aktiv{
+    background-color: #202020;
+}
+
+nav a:hover{
+    background-color: #202020;
+}
+
+#oldal{
+    padding: 20px 0;
+}
+
+aside{
+    width: 280px;
+    float: left;
+}
+
+aside section{
+    margin-bottom: 20px;
+}
+
+aside section h2{
+    padding: 5px 20px;
+}
+
+aside section p{
+    padding: 5px 25px;
+    text-align: justify;
+    line-height: 160%;
+}
+
+aside section ul{
+    line-height: 160%;
+    list-style-type: square;
+    padding-left: 30px;
+}
+
+article img{
+    float: left;
+    width: 160px;
+    border: 5px solid #f0efef;
+    margin-right: 5px;
+}
+
+article h2{
+    font-weight: normal;
+    color: #087cf4;
+    font-size: 22px;
+}
+
+article p{
+    font-size: 16px;
+    text-align: justify;
+}
+
+footer p{
+    text-align: center;
+    font-size: 10px;
+}
+
+footer{
+    border-top: 1px solid #f0efef;
+    clear: both;
+}
+
+.kep{
+    margin: 5px;
+}
